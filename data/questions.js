@@ -1,5 +1,184 @@
 const questions = [
   {
+        "question": "El componente de un nodo de Internet que se encarga de filtrar accesos bajo clave de identificación se lo denomina:",
+        "options": [
+            "Access Server", "Router", "WWW", "Proxy", "Firewall", 
+            "Servidor de Correo electrónico", "Proxy Reverse", "Ninguna de las Anteriores es correcta"
+        ],
+        "answer": "Access Server"
+    },
+    {
+        "question": "Dentro de un Centro de Procesamiento de datos con acceso a Internet, El rewall es congurado en zonas que deben ser de nidas en función de los servicios que debe prestar cada equipo conectado a las mismas, considerando los accesos seguros y no seguros que deben soportar. La Zona que se caracteriza por ser in exible en las políticas de servicios y se aloja el DNS Interno corresponde a:",
+        "options": [
+            "Zona EXTERNA u Outside", "Zona Interna o Inside", "Zona Desmilitarizada o DMZ",
+            "Zona de Comunicaciones IP", "Ambas A, B y C", "Ninguna de las Anteriores es correcta"
+        ],
+        "answer": "Zona Desmilitarizada o DMZ"
+    },
+    {
+        "question": "Dentro de los Servicios ofrecidos dentro de un dominio o nodo de Internet, cuando nos referimos al Servicio FTP estamos hablando de:",
+        "options": [
+            "El acceso en modo Terminal remoto a un equipo computador",
+            "Protocolo de Transferencia de archivos",
+            "Protocolo mundial para intercambiar mensajes de texto en un canal",
+            "Colección de ficheros o páginas WEB",
+            "Protocolo Simple de transferencia de Correo",
+            "Protocolo Simple de Transferencia de Hipertexto",
+            "Todas las anteriores son correctas",
+            "Ninguna de las Anteriores es correcta"
+        ],
+        "answer": "Protocolo de Transferencia de archivos"
+    },
+    {
+        "question": "La Red WAN de Servicios de conexión de alto rendimiento entre puntos de agregación regional de Internet 2, resultante del Proyecto UCAID, basada en POS (Packet Over SONET) que y comenzó a prestar servicios en enero de 1999 corresponde a",
+        "options": ["Arpanet", "Milnet", "Abilene", "Alohanet", "Arpac", "Ninguna de las Anteriores es correcta"],
+        "answer": "Abilene"
+    },
+    {
+        "question": "Dentro de la Topología de una Red de Cablemodem, la Red de Abonado es última derivación de cable coaxial hasta la base de conexión del cliente que conecta la señal a la computadora a través de una MODEM, el tipo de MODEM utilizado es:",
+        "options": ["HDSL", "ADSL", "ISDN", "ATM", "SATELITAL", "Ninguna de las Anteriores es correcta"],
+        "answer": "ADSL"
+    },
+    {
+        "question": "La contratación de Un Canal T1 para una portadora de WAN para acceder a Internet nos permite acceder a un ancho de banda de 1,54 MBPS sabiendo que dicho canal corresponde a los Estándares de normas americanas. El tipo de portadora contratada corresponde a:",
+        "options": ["ISDN", "ADSL", "Cablemodem", "PDH-T-CARRIER", "X-25", "Ninguna de las Anteriores es correcta"],
+        "answer": "PDH-T-CARRIER"
+    },
+    {
+        "question": "Dentro de la topología de un Centro de Procesamiento de datos con acceso a Internet, el SERVIDOR que permite a los usuarios de red el Acceso a cuenta a través de Navegador WEB, que normalmente replica lo almacenado en un servidor SMTP y se encuentra en DMZ (Zona desmilitarizada) corresponde a",
+        "options": ["Access Server", "Webmail", "Router", "Proxy", "Firewall", "Ninguna de las Anteriores es correcta"],
+        "answer": "Webmail"
+    },
+    {
+        "question": "Dentro de los servicios ofrecidos dentro de un dominio o nodo de internet, cuando nos referimos al servicio DHCP estamos hablando de:",
+        "options": [
+            "El acceso en modo terminal encriptado remoto a un equipo computador",
+            "Protocolo de Transferencia de archivos",
+            "Protocolo mundial para intercambiar mensajes de texto en un canal",
+            "Colección de ficheros o páginas WEB",
+            "Protocolo Simple de transferencia de Correo",
+            "Protocolo Simple de Transferencia de Hipertexto",
+            "Protocolo de Configuración Dinámica de Hosts",
+            "Ninguna de las Anteriores es correcta"
+        ],
+        "answer": "Protocolo de Configuración Dinámica de Hosts"
+    },
+    {
+        "question": "Dentro de un Centro de Procesamiento de datos con acceso a Internet, el SERVIDOR que congura límites de tiempo y volúmenes de información a transferir en conexiones Vía http o WEB corresponde a:",
+        "options": [
+            "Monitor de Correo Electrónico o E-Manager",
+            "DNS",
+            "IDS/IPS",
+            "Monitor de Ancho de banda o B-Manager",
+            "Monitor de Web o W-manager",
+            "Ninguna de las Anteriores es correcta"
+        ],
+        "answer": "Monitor de Ancho de banda o B-Manager"
+    },
+    {
+        "question": "El elemento de un nodo de Internet, compuesto por un computador (Hardware y Software) con interfaz de red multipuerto, que habilita o deshabilita servicios en forma parcial/global de acuerdo a las políticas de la organización se lo denomina:",
+        "options": [
+            "Access Server", "Router", "WWW", "Proxy", "Firewall", 
+            "Servidor de Correo electrónico", "Monitor de Correo Electrónico", "Ninguna de las Anteriores es correcta"
+        ],
+        "answer": "Firewall"
+    },
+    {
+        "question": "Dentro de un Centro de Procesamiento de datos con acceso a Internet, El Software o Servidor que registra en un archivo el Origen de donde proviene la incursión las incursiones ilegales de la Web (Dirección IP) , El Servicio, el Puerto , la Fecha y Hora de cuando fue realizado el Intento corresponde a:",
+        "options": [
+            "Proxy", "Firewall", "IDS", "Monitor de Web o W-Manager", 
+            "Ambas A, B y C", "Ninguna de las Anteriores es correcta"
+        ],
+        "answer": "IDS"
+    },
+    {
+        "question": "Para poder bloquear un bombardeo de E-mails y aplicar la utilidad de ltro Spam se debe acceder al:",
+        "options": [
+            "Access Server", "Router", "WWW", "Proxy", "Firewall", 
+            "Servidor de Correo electrónico", "Monitor de Correo Electrónico o E-Manager", 
+            "Ninguna de las Anteriores es correcta"
+        ],
+        "answer": "Servidor de Correo electrónico"
+    },
+    {
+        "question": "Cuando realizamos análisis del contenido de los paquetes, redireccionando los pedidos de Web dentro del ambiente LAN, utilizando capas altas del protocolo (4 a 7) y aplicando Switch por Contenido; estamos utilizando una técnica de",
+        "options": [
+            "Administración de Ancho de banda", "Administración de Web", 
+            "Balanceo de Carga", "Administración de Correo Electrónico", 
+            "NAT", "Ambas A y B", "Todas las Anteriores son correctas", "Ninguna de las Anteriores es correcta"
+        ],
+        "answer": "Ambas A y B"
+    },
+    {
+        "question": "El Protocolo X25 se utiliza en Redes Wan y esta normalizado en los primeros tres niveles del modelo OSI (Física, Enlace y Red) y trabaja generalmente bajo a una Topología que se la denomina Malla, también podemos a rmar que:",
+        "options": [
+            "Aplica Detección y Corrección de Errores",
+            "Aplica Detección y Retransmisión",
+            "Modo de transmisión Sincrónica",
+            "Modo de transmisión Asincrónica",
+            "Ambas A y D",
+            "Ninguna de las Anteriores es correcta"
+        ],
+        "answer": "Aplica Detección y Corrección de Errores"
+    },
+    {
+        "question": "El Modo Asincrónico de Transmisión de Datos (ATM), es una Tecnología de Transmisión de datos de Alta velocidad desarrollada por AT&T y US Print., que se pueden utilizar para Redes Privadas, Interconexiones de LANS o WANS, también podemos a rmar que utiliza",
+        "options": [
+            "Conmutación de Circuitos para Telefonía",
+            "Detección y corrección de errores",
+            "Conmutación de Paquetes para Telegrafía",
+            "Ambas A, B y C", "Ambas A y C", "Ninguna de las Anteriores es correcta"
+        ],
+        "answer": "Ambas A y C"
+    },
+    {
+        "question": "Dentro de una red WAN, cuando nos referimos a MPLS estamos hablando de:",
+        "options": [
+            "Una tecnología que corresponde al Multiprotocol Label Switching",
+            "Un tipo de servidor de acceso para módems",
+            "Un Protocolo de Transporte para Redes en anillo de Fibra Óptica",
+            "Una tecnología estandarizada de comunicaciones digitales",
+            "Un Protocolo Definido en el RFC 3031",
+            "Hay más de una respuesta correcta",
+            "Ninguna de las Anteriores es Correcta"
+        ],
+        "answer": "Una tecnología que corresponde al Multiprotocol Label Switching"
+    },
+    {
+        "question": "Dentro de un Centro de Procesamiento de datos con acceso a Internet, El rewall es congurado en zonas que deben ser de nidas en función de los servicios que debe prestar cada equipo conectado a las mismas, considerando los accesos seguros y no seguros que deben soportar. Habitualmente existen 3 zonas básicas que son:",
+        "options": [
+            "Zona EXTERNA U Outside", "Zona Interna o Inside", "Zona Desmilitarizada o DMZ",
+            "Zona de Comunicaciones IP", "Ambas A, B y C", "Ninguna de las anteriores es Correcta"
+        ],
+        "answer": "Ambas A, B y C"
+    },
+    {
+        "question": "Dentro de la topología de un Centro de Procesamiento de datos con acceso a Internet, el SERVIDOR permite a los usuarios de red con petición de conexión entregar una URL y recibir una Dirección IP corresponde a",
+        "options": [
+            "Access Server", "DNS", "Router", "Proxy", "Firewall", "Ninguna de las Anteriores es correcta"
+        ],
+        "answer": "DNS"
+    },
+    {
+        "question": "Dentro de una Red WAN, la Tecnología Frame Relay se destaca por tener",
+        "options": [
+            "Paquetes de tamaño Variable", "Paquetes de Tamaño Fijo", 
+            "Chequeo y Retransmisión", "Almacenamiento y corrección",
+            "Ambas a y c", "Ninguna de las Anteriores es correcta"
+        ],
+        "answer": "Ambas a y c"
+    },
+    {
+        "question": "Dentro de los métodos de comunicaciones aplicados en Redes WAN, también denomina Redes de larga distancia, si comparamos la conmutación de paquetes respeto a la conmutación de circuitos, podemos decir que:",
+        "options": [
+            "No es necesario reservar recursos (Circuito)", "Es necesario reservar recursos (Circuito)",
+            "El Paquete viaja de nodo a nodo siguiendo algún camino",
+            "El Paquete viaja de nodo a nodo siguiendo un circuito virtual",
+            "Ambas A y C", "Ninguna de las Anteriores es correcta"
+        ],
+        "answer": "Ambas A y C"
+    },
+  {
     "question": "Dentro de una Red WAN con tecnología ATM los circuitos conmutados establecidos entre nodo y nodo se los denomina:",
     "options": [
       "Circuito Real.",
